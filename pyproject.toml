@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multimodal-product-search-ranking"
+version = "0.1.0"
+description = "Multimodal product search with BM25, CLIP, FAISS and hard-negative reranking."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+.ipynb_checkpoints/
+artifacts/
+data/images/
+data/*.parquet
+*.joblib
+*.npy
+*.faiss
+results/figures/*.png
+
+data/abo-mvr.csv.xz
+data/images.csv.gz
+data/listings.json.gz

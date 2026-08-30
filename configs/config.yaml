@@ -1,0 +1,14 @@
+seed: 42
+
+model:
+  name: openai/clip-vit-base-patch32
+  image_size: 224
+  text_weight: 0.65
+  image_weight: 0.35
+
+retrieval:
+  ann_candidates: 100
+  top_k: 10
+
+ranking:
+  hard_negative_multiplier: 5
